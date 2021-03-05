@@ -69,18 +69,27 @@ public class Demo {
         冒泡排序
         * */
         int[] i9 = {1, 9, 6, 5};
-        for (int i = 0; i < i9.length; i++) {
-            for (int j = 0; j < i9.length - 1; j++) {
-                if (i9[i] > i9[i + 1]) {
-//                    int temp = i
-                }
-            }
-        }
+//        for (int i = 0; i < i9.length; i++) {
+//            for (int j = 0; j < i9.length - 1; j++) {
+//                if (i9[i] > i9[i + 1]) {
+////                    int temp = i
+//                }
+//            }
+//        }
 //        数组的复制
 //        Arrays.copyOf(原数组,新数组的长度)
 //        排序
 //        Arrays.sort(数组)
 //        数组转字符串
 //        Arrays.toString()
+
+        /*
+         * 二维数组:数组中的元素是数组
+         * */
+        int[][] a10 = new int[4][5];
+        System.out.println(Arrays.toString(a10));
+
+        /*问什么数组定义出来不能改变长度:
+        * */
     }
 }
